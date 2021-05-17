@@ -12,10 +12,12 @@ GameObject:
   - component: {fileID: 965137976237641932}
   - component: {fileID: 965137976237641923}
   - component: {fileID: 965137976237641922}
-  - component: {fileID: 965137976237641921}
+  - component: {fileID: 4710932253530362769}
+  - component: {fileID: 1446513772785403323}
+  - component: {fileID: 8519042444970672429}
   m_Layer: 0
   m_Name: BloquePajaro
-  m_TagString: Untagged
+  m_TagString: Pajaro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965137976237641920}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.056, y: 0.298, z: 0.801}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &965137976237641932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -99,8 +101,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &965137976237641921
-MeshCollider:
+--- !u!65 &4710932253530362769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965137976237641920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19999999, y: 0.20000003, z: 0.26692203}
+  m_Center: {x: 0, y: 0, z: -0.118848726}
+--- !u!65 &1446513772785403323
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -109,7 +124,24 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 479d9f1b86787a148a21d0478f0594ca, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.19999999, y: 0.20000003, z: 0.26692203}
+  m_Center: {x: 0, y: 0, z: -0.118848726}
+--- !u!114 &8519042444970672429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965137976237641920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
