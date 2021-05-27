@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3602588523326668791}
   - component: {fileID: 4607851884696851422}
   - component: {fileID: 4890090559610312621}
+  - component: {fileID: 3944918694590234049}
   m_Layer: 0
   m_Name: Barrote01
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2079861458073112162}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.7746906, y: -0.018300094, z: -0.41917542}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
   m_RootOrder: 0
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3944918694590234049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079861458073112162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4169631, y: 0.046170812, z: 1.2619799}
+  m_Center: {x: -0.30983502, y: 1.8614803e-15, z: 0.6309899}
 --- !u!1 &2784180658965975192
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3054017099865262399}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.13272041, y: -1.225, z: -0.41917542}
+  m_LocalPosition: {x: 0.13272041, y: -1.852, z: -0.41917542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
@@ -193,7 +207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3054017100866899298}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.7746906, y: -1.225, z: -0.41917542}
+  m_LocalPosition: {x: 0.7746906, y: -1.852, z: -0.41917542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
@@ -223,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3054017100915685516}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.45370552, y: -1.225, z: -0.41917542}
+  m_LocalPosition: {x: 0.45370552, y: -1.852, z: -0.41917542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
@@ -321,6 +335,7 @@ GameObject:
   - component: {fileID: 6481398659016742868}
   - component: {fileID: 1339469879512615608}
   - component: {fileID: 6132685171077141012}
+  - component: {fileID: 8721607880890868171}
   m_Layer: 0
   m_Name: Barrote03
   m_TagString: Untagged
@@ -337,7 +352,7 @@ Transform:
   m_GameObject: {fileID: 6011017389068456552}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.13272041, y: -0.018300094, z: -0.41917542}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
   m_RootOrder: 2
@@ -391,6 +406,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8721607880890868171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011017389068456552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3462365, y: 0.046170812, z: 1.2619799}
+  m_Center: {x: 0.31246227, y: 1.8614803e-15, z: 0.6309899}
 --- !u!1 &6893452320367630138
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +430,7 @@ GameObject:
   - component: {fileID: 7868456635793119181}
   - component: {fileID: 1281766712284651072}
   - component: {fileID: 1721070581666113703}
+  - component: {fileID: 8487167653553284249}
   m_Layer: 0
   m_Name: Barrote02
   m_TagString: Untagged
@@ -418,7 +447,7 @@ Transform:
   m_GameObject: {fileID: 6893452320367630138}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.45370552, y: -0.018300094, z: -0.41917542}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 3308093085994338850}
   m_RootOrder: 1
@@ -472,3 +501,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8487167653553284249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893452320367630138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4481091, y: 0.046170812, z: 1.2619799}
+  m_Center: {x: 0, y: 1.8614803e-15, z: 0.6309899}
