@@ -214,6 +214,7 @@
     <Compile Include="Assets\OculusAssets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\OculusAssets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\OculusAssets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
+    <Compile Include="Assets\AssetsMinos\Scripts\EncenderFuego.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\OculusAssets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
