@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4888181496707434770}
   - component: {fileID: 4620102059788245219}
   - component: {fileID: 2831669308355315630}
-  - component: {fileID: 7331160236058992353}
-  m_Layer: 0
+  - component: {fileID: 8808782288979280670}
+  m_Layer: 8
   m_Name: BloqueSerpiente
   m_TagString: Serpiente
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19999999, y: 0.20000003, z: 0.26692203}
   m_Center: {x: 0, y: 0, z: -0.118848726}
---- !u!114 &7331160236058992353
+--- !u!114 &8808782288979280670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
-  m_materialColorField: 
+  m_materialColorField: _OutlineColor

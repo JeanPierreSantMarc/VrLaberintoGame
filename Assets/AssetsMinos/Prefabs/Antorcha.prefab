@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5750086344169766896}
   - component: {fileID: 6160399281984079935}
   m_Layer: 0
-  m_Name: Point Light (2)
+  m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930478015304154572}
   m_LocalRotation: {x: -0.00000024234438, y: 0.7071068, z: 0.7071068, w: -0.00000024234438}
-  m_LocalPosition: {x: 0.0005, y: -0.0021, z: 0.1846}
+  m_LocalPosition: {x: 0.0005, y: -0.0021, z: 0.2136}
   m_LocalScale: {x: 0.26604992, y: 0.3621499, z: 0.26604992}
   m_Children: []
   m_Father: {fileID: 4838600324078640295}
@@ -42,9 +42,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9150943, g: 0.64235234, b: 0.28920433, a: 1}
-  m_Intensity: 1.5
-  m_Range: 2.37
+  m_Color: {r: 1, g: 0.7903542, b: 0.6273585, a: 1}
+  m_Intensity: 1
+  m_Range: 6.76
   m_SpotAngle: 108.4
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -88,7 +88,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.8007987e+25, y: 4.8234043e+13, z: 1.0390065e+21, w: 1.8062075e+28}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 1098669378}
   - component: {fileID: 1098669379}
   - component: {fileID: 1098669382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Antorcha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &1098669379
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 571763386680737749}
   - component: {fileID: 4019954750178283585}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,8 +253,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6977427924665091038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0005, y: -0.0041, z: 0.1866}
-  m_LocalScale: {x: 0.0905, y: 0.09049999, z: 0.09049999}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1866}
+  m_LocalScale: {x: 0.19025686, y: 0.19025685, z: 0.19025685}
   m_Children: []
   m_Father: {fileID: 4838600324078640295}
   m_RootOrder: 0
