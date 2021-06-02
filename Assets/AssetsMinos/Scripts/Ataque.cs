@@ -5,10 +5,10 @@ using UnityEngine.AI;
 
 public class Ataque : MonoBehaviour
 {
+    Rigidbody rb;
     public Transform target;
     public float speed = 0.1f;
     public float acel = 0.1f;
-    Rigidbody rb;
 
    
     public bool atacando = false;
@@ -27,21 +27,6 @@ public class Ataque : MonoBehaviour
 
     }
 
-    void OnTriggerEnter (Collider collider)
-    {
-        if (collider.gameObject.layer == 10)
-        {
-            anim.SetBool("ataque", true);
-
-            atacando = true;
-
-            comer.SetActive(false);
-            grito.SetActive(true);
-            pasos.SetActive(true);
-
-        }
-    }
-
     void FixedUpdate()
     {
 
@@ -52,6 +37,14 @@ public class Ataque : MonoBehaviour
             rb.MovePosition(pos);
             transform.LookAt(target);
             speed = speed + acel;
+
+            anim.SetBool("ataque", true);
+
+            atacando = true;
+
+            comer.SetActive(false);
+            grito.SetActive(true);
+            pasos.SetActive(true);
 
         }
        
